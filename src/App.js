@@ -71,8 +71,7 @@ useEffect(() =>{
        />
       <TodoList todos={todos} 
       setTodos={setTodos}
-      filteredTodos={filteredTodos}
-      />
+      filteredTodos={filteredTodos} />
     </div>
   );
 }
